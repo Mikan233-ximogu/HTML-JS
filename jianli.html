@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h2{
+            text-align: center;
+        }
+        table{
+            margin: auto;
+        }
+        th{
+            width: 80px;
+            height: 30px;
+        }
+        .tr1{
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2>个 人 简 历</h2>
+    //让简历边框为1,且合并边框
+    <table border="1" style="border-collapse:collapse;">
+        <tr>
+            <th>姓 名</th>
+            <th></th>
+            <th>性 别</th>
+            <th></th>
+            <th>出生年月</th>
+            <th></th>
+            <th rowspan="3"></th>//合并头像
+        </tr>
+
+        <tr>
+            <th>籍 贯</th>
+            <th></th>
+            <th>民 族</th>
+            <th></th>
+            <th>计算机水平</th>
+            <th></th>//被合并了,删除第七列
+        </tr>
+
+        <tr>
+            <th>政治面貌</th>
+            <th></th>
+            <th>身 高</th>
+            <th></th>
+            <th>月薪要求</th>
+            <th></th>//被合并了,删除第七列
+        </tr>
+
+
+        <tr>
+            <th>所学专业</th>
+            <th></th>
+            <th>学 历</th>
+            <th></th>
+            <th>求职类型</th>
+            <th colspan="2"></th>
+        </tr>
+
+        <tr>
+            <th>家庭住址</th>
+            <th colspan="2"></th>
+            <th colspan="2">兴趣特长</th>
+            <th colspan="2"></th>
+        </tr>
+
+        <tr>
+            <th rowspan="2">现住址</th>
+            <th colspan="2" rowspan="2"></th>
+            <th colspan="2">联系电话</th>
+            <th colspan="2"></th>
+        </tr>
+
+        <tr>
+            <th colspan="2">QQ号</th>
+            <th class="2" colspan="2"></th>
+        </tr>
+
+
+       <tr class="tr1">
+        <th rowspan="3">教育背景</th>
+        <th colspan="6"></th>
+       </tr>
+
+       <tr class="tr1">
+        <th colspan="6"></th>
+       </tr>
+
+       <tr class="tr1">
+        <th colspan="6"></th>
+       </tr>
+
+
+       <tr class="tr1">
+        <th rowspan="3">个人能力及专长</th>
+        <th colspan="6" rowspan="3"></th>
+       </tr>
+
+       <tr class="tr1" ></tr>
+       <tr class="tr1"></tr>
+
+       <tr class="tr1">
+        <th rowspan="3">工作经验</th>
+        <th colspan="6" rowspan="3"></th>
+       </tr>
+
+       <tr class="tr1"></tr>
+       <tr class="tr1"></tr>
+    </table>
+</body>
+</html>
